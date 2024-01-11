@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  color: white;
+  background: black;
+    box-sizing: border-box;
+}
+
+@-webkit-keyframes leap {
+  50% {
+    transform: translateY(-50%) rotate(-15deg);
+  }
+}
+@keyframes leap {
+  50% {
+    transform: translateY(-50%) rotate(-15deg);
+  }
+}
+
+
+.wobble span {
+  display: inline-block;
+  pointer-events: none;
+}
+.wobble span.leap {
+  -webkit-animation: leap 0.7s 1;
+          animation: leap 0.7s 1;
+}
+
+.info {
+  background: #f6f6f6;
+  padding: 30px;
+  margin-bottom: 50px;
+  border-radius: 4px;
+  box-shadow: 0 20px 50px -45px #333;
+  max-width: 600px;
+}
+
+
+.image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  will-change: transform, opacity;
+}
+
+.image:hover {
+  cursor: grab;
+}
+
+.image:active {
+  cursor: grabbing;
+}
+

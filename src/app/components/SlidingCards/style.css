@@ -1,0 +1,68 @@
+.background_image{
+    background-image: "url('https://dynamicmedia.accenture.com/is/image/accenture/Accenture-Powered-For-Change-Hero-3840x2160%3Arad-5x3?ts=1701776318778&dpr=off')";
+    background-size: cover;
+    position: center;
+}
+
+/* Card.css */
+
+.card {
+    width: 300px; /* Set your preferred width */
+    height: 200px; /* Set your preferred height */
+    background-image: url('https://dynamicmedia.accenture.com/is/image/accenture/Accenture-Powered-For-Change-Hero-3840x2160%3Arad-5x3?ts=1701776318778&dpr=off');
+    background-size: cover;
+    background-position: center top; /* Initial position */
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+  }
+  .hoverscale{
+    scale: 100px;
+  }
+  .card:hover {
+    scale: 100px;
+    background-position: center bottom; /* Adjust the value for the slide-down distance */
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for the overlay */
+    color: white; /* Text color for the title */
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  .title {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .underlintext {
+    position: relative;
+    text-decoration: none;
+  
+    font-size: 18px;
+    display: inline-block;
+  }
+  
+  .underlintext::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #0077cc; /* Change this to your desired underline color */
+    bottom: 0;
+    right: 0;
+    transition: width 0.3s ease;
+  }
+  
+  .underlintext:hover::after {
+    width: 100%;
+  }
+  
+  
