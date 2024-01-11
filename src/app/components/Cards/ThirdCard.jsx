@@ -51,7 +51,7 @@ export default function ParalaxCard() {
       onHoverEnd={() => {
         handleHoverEnd(0);
       }}
-      className="relative m-8  h-96 lg:w-full sm:col-span-2 sm:col-start-1 sm:max-w-64 md:col-span-2 md:col-start-1   lg:max-w-96  lg:col-start-2  bg-violet-900 overflow-hidden "
+      className="relative m-8  h-96 lg:w-full sm:col-span-2 sm:col-start-1  md:col-span-2 md:col-start-1   lg:max-w-96  lg:col-start-2  bg-violet-900 overflow-hidden "
     >
       <motion.div className=" text-2xl  absolute">
         <motion.p
