@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      {/* <DynamicTransition /> */}
+      <DynamicTransition />
       <div className="container flex justify-center items-center mx-auto mt-10">
         <Card />
       </div>
