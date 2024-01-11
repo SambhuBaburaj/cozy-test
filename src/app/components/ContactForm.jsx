@@ -59,7 +59,7 @@ const ContactForm = () => {
       <p className="section-title text-4xl font-semibold mt-28 text-center pb-[30px]">
         CONTACT US
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:mx-16 p-5 gap-40">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:mx-16 p-5 gap-24">
         <div>
           <p className="text-3xl font-semibold">CozyFox</p>
           <p className=" pt-4">
@@ -190,8 +190,9 @@ const ContactForm = () => {
             </Link>
           </div>
         </div>
-        <div className="mt-14">
-        <div className="flex">
+        <div className=" flex justify-center">
+          <div>
+          <div className="flex">
               <p>
                 <PlaceOutlined className="text-[#82D5F7]" />
               </p>
@@ -213,6 +214,8 @@ const ContactForm = () => {
               </p>
               <p className="ml-5 text-xl font-thin">+91 884 876 3423</p>
             </div>
+          </div>
+       
         </div>
         <form onSubmit={formik.handleSubmit}>
         <TextField
