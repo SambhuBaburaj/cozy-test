@@ -10,11 +10,7 @@ export default function Carousel() {
   const controls = useAnimation();
 
   const data = [
-    {
-      image: "/images/innovation.jpg",
-      heading: "Mondelēz International’s Data and AI Transformation",
-      text: "The global snacking giant is laying a tasty foundation for reinvention and growth. Accenture is helping Mondelēz International to embrace the power of data and AI, build a strong digital core and implement interoperable cloud-enabled technology.",
-    },
+ 
     {
       image: "/images/moon.png",
       heading: "Effective Synergy",
