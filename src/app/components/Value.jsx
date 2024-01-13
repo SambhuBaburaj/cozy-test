@@ -30,8 +30,18 @@ export default function Value() {
     }}
     initial="hidden"
     animate={mainControl}
-    transition={{ duration: 0.5, delay: 0.25 }}
+    transition={{ duration: 0.8, delay: 0.5 }}
     className=" mx-auto mt-48">
+      <motion.div
+          ref={ref}
+          variants={{
+            hidden: { opacity: 0, y: 75 },
+            visible: { opacity: 1, y: 0 },
+          }}
+          initial="hidden"
+          animate={mainControl}
+          transition={{ duration: 0.5, delay: 0.25 }}
+      >
 <svg viewbox="0 0 100 20">
   <defs>
     <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
@@ -54,11 +64,24 @@ export default function Value() {
   <text text-anchor="middle" x="50" y="15" font-size="8" fill="url(#wave)"  fill-opacity="0.8">  360&deg; VALUE</text>
   <text text-anchor="middle" x="50" y="15" font-size="8" fill="url(#gradient)" fill-opacity="0.1">  360&deg; VALUE</text>
 </svg>
+      </motion.div>
 
-  
-      <p className="text-2xl lg:text-5xl text-center animate-charcter  font-bold">
+
+  <motion.div 
+      ref={ref}
+      variants={{
+        hidden: { opacity: 0, y: 75 },
+        visible: { opacity: 1, y: 0 },
+      }}
+      initial="hidden"
+      animate={mainControl}
+      transition={{ duration: 1, delay: 0.75 }}
+  >
+  <p className="text-2xl lg:text-5xl text-center animate-charcter  font-bold">
       Every day, we embrace change and create value for all our stakeholders, in every part of the world.
       </p>
+  </motion.div>
+  
 
 
     </motion.div>
