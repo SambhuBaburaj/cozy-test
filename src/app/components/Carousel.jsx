@@ -17,13 +17,29 @@ export default function Carousel() {
     },
     {
       image: "/images/moon.png",
-      heading: "Heading TWO",
-      text: "Text TWO",
+      heading: "Effective Synergy",
+      text: "Communication is to hear what isn't being said. We appear at times to over-communicate. While it sounds overwhelming, it works wonders for our clients and our company ultimately. With communication alone we solve real-world problems. Our Development team remains in contact with customers through channels and media that allow performance, transparency and accuracy, feasible with all time zones across the World.",
     },
     {
       image: "/images/innovation.jpg",
-      heading: "Heading THREE",
-      text: "Text THREE",
+      heading: "On Time Delivery",
+      text: "We do not over promise we over-deliver our promise.We have a great collection of internal frameworks with best-in-class infrastructure with a decade of experience in the IT software development industry that helps us to deliver solutions with superior quality at all times. We have learned how to avoid mistakes and repeat success all these years. We don't brag about consistency alone. In time, we describe and produce it. Our Products are here to notify the same.",
+    },
+
+    {
+      image: "/images/innovation.jpg",
+      heading: "Strong Expertise",
+      text: "With our core field of expertise being Ruby on Rails, Angular, React, our coding experts remain on the cutting edge of the newest and most successful technology trends and popular applications on the market. So you can expect a greater level of ownership, commitments & deliveries in less time with higher quality while following all the best practices for the development. Thereby providing the best values for our customers. It is always that we believe in Quality > Quantity & “Value” is what is valued.",
+    },
+    {
+      image: "/images/innovation.jpg",
+      heading: "Total Ownership & Feedback Based",
+      text: "We do not follow the criteria or requirements just like that. Right from the beginning we have a direct influence on the project. We take spontaneous feedback from our clients, their customers, and other stakeholders that have an impact on the product. And we take your product and its feedback seriously. With this we make sure that we all are heading towards the right direction. Which saves really everything that matters.",
+    },
+    {
+      image: "/images/innovation.jpg",
+      heading: "Results Focused",
+      text: "We create digitally adaptable products, not just features. These are the real world problems and the solutions are futuristic.And we make sure we deliver them regardless of any factors that may hinder the development or progress. Everything is in control. You know your destination? We know how to take you there. In the long term, our priority is on making your company succeed.",
     },
   ];
 
