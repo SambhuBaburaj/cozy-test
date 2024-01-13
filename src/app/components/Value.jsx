@@ -40,7 +40,7 @@ export default function Value() {
           }}
           initial="hidden"
           animate={mainControl}
-          transition={{ duration: 0.5, delay: 0.25 }}
+          transition={{ duration: 1, delay: 0.25 }}
       >
 <svg viewbox="0 0 100 20">
   <defs>
@@ -75,7 +75,7 @@ export default function Value() {
       }}
       initial="hidden"
       animate={mainControl}
-      transition={{ duration: 1, delay: 0.75 }}
+      transition={{ duration: 2, delay: 0.25 }}
   >
   <p className="text-2xl lg:text-5xl text-center animate-charcter  font-bold">
       Every day, we embrace change and create value for all our stakeholders, in every part of the world.
