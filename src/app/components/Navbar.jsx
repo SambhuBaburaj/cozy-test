@@ -69,7 +69,7 @@ const Navbar = () => {
           </div>
           <div className="md:hidden">
             <button onClick={() => setOpen(true)}>
-              <MenuIcon sx={{ fontSize: "3rem" }} />
+              <MenuIcon sx={{ fontSize: "2rem" }} />
             </button>
           </div>
         </div>

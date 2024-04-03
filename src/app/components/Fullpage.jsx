@@ -48,7 +48,7 @@ function Fullpage() {
         </motion.div>
       </div>
       <div className=' flex flex-col justify-center items-center relative '>
-            <div className='w-screen md:w-1/2'>
+            <div className='w-screen md:w-1/2 p-8  sm:p-4 md:p-0'>
                 <p className='text-2xl md:text-5xl font-semibold'>Our culture</p>
                 <p className='mt-4 text-xl text-wrap' style={{fontFamily:"playfair"}}>We combine technology with human ingenuity to solve some of the world&apos;s biggest challenges. When you work with us, the possibilities are endless.</p>
                 <div className='mt-8 flex items-end'>

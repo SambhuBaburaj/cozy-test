@@ -52,7 +52,13 @@ export default function ParalaxCard() {
         handleHoverEnd(0);
       }}
       className="relative m-8  h-96 lg:w-full sm:col-span-2 sm:col-start-1  md:col-span-2 md:col-start-1   lg:max-w-96  lg:col-start-2  bg-violet-900 overflow-hidden "
-    >
+      style={{
+        backgroundImage: "url('/images/bg (3).png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+   
+   >
       <motion.div className=" text-2xl  absolute">
         <motion.p
           className="p-5 font-serif inset-x-0 h-full bottom-1 "
