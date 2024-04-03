@@ -42,7 +42,7 @@ export default function Value() {
           animate={mainControl}
           transition={{ duration: 1, delay: 0.25 }}
       >
-<svg viewbox="0 0 100 20">
+{/* <svg viewbox="0 0 100 20">
   <defs>
     <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
       <stop offset="5%" stop-color="#82D5F7"/>
@@ -61,9 +61,9 @@ export default function Value() {
       </path>
     </pattern>
   </defs>
-  <text text-anchor="middle" x="50" y="15" font-size="8" fill="url(#wave)"  fill-opacity="0.8">  360&deg; VALUE</text>
-  <text text-anchor="middle" x="50" y="15" font-size="8" fill="url(#gradient)" fill-opacity="0.1">  360&deg; VALUE</text>
-</svg>
+  <text text-anchor="middle" x="50" y="15" font-size="8" fill="url(#wave)"  fill-opacity="0.8"> COZY FOLKS</text>
+  <text text-anchor="middle" x="50" y="15" font-size="8" fill="url(#gradient)" fill-opacity="0.1"> COZY FOLKS</text>
+</svg> */}
       </motion.div>
 
 

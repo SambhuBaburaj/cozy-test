@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.smooth-scroll-container {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  height: 400px; /* Set a height or adjust as needed */
+}
 
 body {
   color: white;
